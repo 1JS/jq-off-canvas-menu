@@ -1,0 +1,11 @@
+body { background-color: #ecf8ff; }
+
+header { background-color: #25a8c9; }
+
+.nav { position: relative; }
+
+.logo { padding-left: 60px; }
+
+.off-canvas-icon { position: absolute; left: 10px; top: 20px; }
+
+.content { padding: 50px 20px; }

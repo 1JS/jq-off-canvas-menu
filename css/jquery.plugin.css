@@ -1,0 +1,11 @@
+.off-canvas-icon { font-size: 32px; color: #aadee5; }
+.off-canvas-icon:hover { cursor: pointer; }
+
+.off-canvas { position: fixed; left: -75%; width: 75%; height: 100%; background: #333333; transition: all 0.35s ease-in-out; }
+.off-canvas.open { left: 0; }
+.off-canvas ul.menu-li { list-style: none; margin: 0; padding-left: 0; }
+.off-canvas ul.menu-li > li a { display: block; padding: 8px 20px; color: #cccccc; font-size: 26px; }
+
+.wrapper { width: 100%; overflow: hidden; }
+.wrapper .inner { float: right; width: 100%; transition: all 0.35s ease-in-out; }
+.wrapper.off .inner { margin-right: -75%; }
