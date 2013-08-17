@@ -14,4 +14,6 @@
 /*==========  Desktop style  ========== */
 @media (min-width: 768px) { .off-canvas-icon { display: none; }
   .off-canvas { z-index: 1; position: absolute; right: 0; top: 10px; left: auto; height: auto; text-align: right; background: transparent; }
-  .off-canvas li { display: inline-block; } }
+  .off-canvas li { display: inline-block; }
+  .off-canvas.open { left: auto; }
+  .wrapper.off .inner { margin-right: auto; } }
