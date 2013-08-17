@@ -1,3 +1,4 @@
+/*==========  Mobile style  ==========*/
 
 // off canvas icon, you can place it anywhere
 .off-canvas-icon
@@ -31,17 +32,40 @@
 				color: #CCCCCC
 				font-size: 26px
 
-// main content wrapper
+// for .inner
 .wrapper
-	width: 100%
+	width: 100% 
 	overflow: hidden // hide overflow content when off-canvas menu open
 
-	// when off-canvas-icon is click, add 'off' class to wrapper
+	// main content wrapper
 	.inner
 		float: right
 		width: 100%
 		transition: all .35s ease-in-out
 
+	// when off-canvas-icon is click, add 'off' class to wrapper
 	&.off
 		.inner
 			margin-right: -75%
+
+
+/*==========  Desktop style  ==========*/
+@media (min-width: 768px)
+	.off-canvas-icon
+		display: none
+
+	.off-canvas
+		z-index: 1 // over header
+		position: absolute
+		right: 0
+		top: 10px
+		left: auto
+		height: auto
+		text-align: right
+		background: transparent
+
+		li
+			display: inline-block
+
+
+
